@@ -844,21 +844,3 @@ Output:
 ```
 <class 'int'>
 ```
-
-
-
-
-# 🎯 Summary
-
-In this lesson we learned:
-
-✅ What programming languages are.  
-✅ History of Python.  
-✅ Why Python is important in cybersecurity.  
-✅ Installing Python.  
-✅ IDE and code editors.  
-✅ Creating Python scripts.  
-✅ Printing output.  
-✅ Writing comments.  
-✅ Variables and data types.
-
