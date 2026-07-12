@@ -2,8 +2,6 @@
 
 ## 📚 Table of Contents
 
-## 📚 Table of Contents
-
 1. 🔐 [What is Cyber Security?](#-what-is-cyber-security)
 2. 🕵️ [Types of Hackers](#️-types-of-hackers)
    - Based on Ethics
