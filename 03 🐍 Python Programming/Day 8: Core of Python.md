@@ -170,11 +170,23 @@ gnimmargorP
 
 # ⌨️ Input Handling
 
-## What is Input?
+In Python, there are **two main ways to provide input to a program**:
 
-Programs become interactive by accepting input from users.
+1. 🖥️ **By using the input() function**
+2. ⌨️ **By using Arguments (Command Line Arguments)**
 
-Python uses the **input()** function.
+
+# 1. 🖥️ Input Using `input()` Function
+
+The `input()` function allows the program to receive information from the user while the program is running.
+
+## Syntax
+
+```python
+variable = input("Text you like to display: ")
+```
+
+### Example
 
 ```python
 name = input("Enter your name: ")
@@ -182,62 +194,312 @@ name = input("Enter your name: ")
 print("Hello", name)
 ```
 
+Output:
+
+```
+Enter your name: Nathan
+
+Hello Nathan
+```
+
+Explanation:
+
+```
+User enters:
+Nathan
+
+        ↓
+
+input()
+
+        ↓
+
+Stored inside variable
+
+name = "Nathan"
+
+        ↓
+
+print() displays the result
+```
 
 
-## Input Always Returns a String
+## Changing Input Data Type
+
+By default, the `input()` function always returns data as a **string**.
+
+Example:
 
 ```python
-age = input("Enter age: ")
+age = input("Enter your age: ")
 
 print(type(age))
 ```
 
-Output
+Output:
 
 ```
 <class 'str'>
 ```
 
+To change the input type, we use conversion functions.
 
 
-## Converting Input
+## Integer Input
 
-### Integer
+Using `int()`
 
 ```python
-age = int(input("Enter age: "))
+age = int(input("Enter your age: "))
+
+print(type(age))
+```
+
+Output:
+
+```
+Enter your age: 22
+
+<class 'int'>
 ```
 
 
 
-### Float
+## Float Input
+
+Using `float()`
 
 ```python
-price = float(input("Price: "))
+price = float(input("Enter price: "))
+
+print(type(price))
+```
+
+Output:
+
+```
+Enter price: 25.5
+
+<class 'float'>
 ```
 
 
 
-### Boolean
+## String Input
+
+Using `str()`
 
 ```python
-value = bool(input("True or False"))
+name = str(input("Enter name: "))
 ```
 
-Note:
 
-`bool(input())` only checks whether the string is empty.
+
+## Eval Input
+
+Using `eval()` allows Python to evaluate the input as a Python expression.
+
+Example:
+
+```python
+result = eval(input("Enter calculation: "))
+
+print(result)
+```
+
+Input:
+
+```
+10 + 5
+```
+
+Output:
+
+```
+15
+```
+
+⚠️ **Note:** `eval()` should be used carefully because it can execute Python code.
+
+
+
+# 2. ⌨️ Input Using Arguments (Command Line Arguments)
+
+Arguments allow us to provide input when starting the program from the command line.
+
+Instead of asking the user during execution, we give values when running the program.
 
 
 
 ## Example
 
-```python
-num1 = int(input("First number: "))
-num2 = int(input("Second number: "))
+File name:
 
-print(num1 + num2)
 ```
+greet.py
+```
+
+Run:
+
+```bash
+python greet.py Nathan Hailu
+```
+
+Here:
+
+```
+python  → Python interpreter
+
+greet.py → Program name
+
+Nathan   → Argument 1
+
+Hailu    → Argument 2
+```
+
+
+
+# Accessing Arguments in Python
+
+Python stores command line arguments inside the `sys.argv` list.
+
+First, import the `sys` module:
+
+```python
+import sys
+
+print(sys.argv)
+```
+
+Run:
+
+```bash
+python greet.py Nathan Hailu
+```
+
+Output:
+
+```
+['greet.py', 'Nathan', 'Hailu']
+```
+
+
+
+## Example: Greeting Using Arguments
+
+```python
+import sys
+
+name = sys.argv[1]
+
+print("Hello", name)
+```
+
+Run:
+
+```bash
+python greet.py Nathan
+```
+
+Output:
+
+```
+Hello Nathan
+```
+
+
+
+# Multiple Arguments Example
+
+```python
+import sys
+
+first_name = sys.argv[1]
+last_name = sys.argv[2]
+
+print("Hello", first_name, last_name)
+```
+
+Run:
+
+```bash
+python greet.py Nathan Hailu
+```
+
+Output:
+
+```
+Hello Nathan Hailu
+```
+
+
+# Have You Seen This Output? 🤔
+
+Example:
+
+Input:
+
+```
+Nathan Hailu
+```
+
+Output:
+
+```
+Hello Nathan!
+```
+
+## WHY??
+
+Because the program received the value **Nathan** as an input and stored it inside a variable.
+
+Example using `input()`:
+
+```python
+name = input("Enter your name: ")
+
+print("Hello", name)
+```
+
+Process:
+
+```
+User enters:
+
+Nathan Hailu
+
+        ↓
+
+input() receives the value
+
+        ↓
+
+name = "Nathan Hailu"
+
+        ↓
+
+print() uses the variable
+
+        ↓
+
+Hello Nathan Hailu
+```
+
+The program does not know your name automatically.
+
+It only prints what was stored in the variable.
+
+
+
+# Difference Between input() and Arguments
+
+| input() Function | Arguments |
+|---|---|
+| Input is given while the program is running | Input is given before the program starts |
+| Uses keyboard | Uses command line |
+| Interactive | Automated |
+| Uses `input()` | Uses `sys.argv` |
+| Good for user interaction | Good for scripts and automation |
 
 
 
