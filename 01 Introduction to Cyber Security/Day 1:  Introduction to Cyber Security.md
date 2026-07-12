@@ -11,10 +11,9 @@
 7. 🧠 [Skills Needed for Ethical Hacking](#-skills-needed-for-ethical-hacking)
 8. 🚀 [Phases of Hacking](#-phases-of-hacking)
 9. 🎯 [Penetration Testing](#-penetration-testing)
-10. 🧪 [Types of Penetration Testing](#-types-of-penetration-testing)
-11. 📖 [Cyber Security Field Terms](#-cyber-security-field-terms)
-12. 💼 [Jobs in Ethical Hacking](#-jobs-in-ethical-hacking)
-13. ⚖️ [Ethics of Cyber Security](#️-ethics-of-cyber-security)
+10. 📖 [Cyber Security Field Terms](#-cyber-security-field-terms)
+11. 💼 [Jobs in Ethical Hacking](#-jobs-in-ethical-hacking)
+12. ⚖️ [Ethics of Cyber Security](#️-ethics-of-cyber-security)
 
 
 ---
@@ -192,27 +191,28 @@ Ethical hacking follows these phases:
 
 # 🎯 Penetration Testing
 
-Penetration Testing is an authorized security test that simulates real attacks to identify vulnerabilities.
+Penetration Testing (Pen Test) is an authorized security test that simulates real-world attacks to identify vulnerabilities in systems, networks, or applications.
 
-Purpose:
+## Purpose of Penetration Testing:
 
-- Find security weaknesses.
-- Improve defenses.
-- Prevent real attacks.
+- 🔍 Find security weaknesses.
+- 🛡️ Improve security defenses.
+- 🚨 Prevent real-world attacks.
+- 📋 Test security controls.
 
+## 🧪 Types of Penetration Testing
 
----
+### 🌐 Black Box Testing
+- Tester has no prior knowledge about the target system.
+- Simulates a real external attacker.
 
-# 🧪 Types of Penetration Testing
+### ⚪ White Box Testing
+- Tester has complete information about the system.
+- Includes source code, network details, and architecture.
 
-## 🌐 Black Box Testing
-- Tester has no prior knowledge of the system.
-
-## ⚪ White Box Testing
-- Tester has complete system information.
-
-## 🔘 Gray Box Testing
-- Tester has partial information.
+### 🔘 Gray Box Testing
+- Tester has partial knowledge of the system.
+- Combines black box and white box approaches.
 
 
 ---
