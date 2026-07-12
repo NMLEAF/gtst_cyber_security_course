@@ -16,7 +16,6 @@
 12. ⚖️ [Ethics of Cyber Security](#️-ethics-of-cyber-security)
 
 
----
 
 # 🔐 What is Cyber Security?
 
@@ -38,7 +37,6 @@ Hacking is the process of finding weaknesses in systems and using them to gain a
 Ethical hacking is authorized hacking performed to identify and fix security vulnerabilities.
 
 
----
 
 # 🕵️ Types of Hackers
 
@@ -78,7 +76,6 @@ Hackers can be classified in different ways.
 - Discover complex vulnerabilities and develop advanced security techniques.
 
 
----
 
 # ❓ Why Learn Cyber Security?
 
@@ -91,7 +88,6 @@ Cyber security is important because:
 - 👨‍💻 Creates career opportunities.
 
 
----
 
 # 👨‍💻 Who Can Be an Ethical Hacker?
 
@@ -103,7 +99,6 @@ Anyone who has:
 - ⚖️ Strong ethical responsibility.
 
 
----
 
 # ⚠️ Why Hacks Happen
 
@@ -117,7 +112,6 @@ Common reasons attackers hack:
 - 🧪 Testing skills
 
 
----
 
 # 🔑 Elements of Information Security
 
@@ -150,7 +144,6 @@ Example:
 - Disaster recovery
 
 
----
 
 # 🧠 Skills Needed for Ethical Hacking
 
@@ -165,7 +158,6 @@ Important skills include:
 - 📖 Continuous learning
 
 
----
 
 # 🚀 Phases of Hacking
 
@@ -187,7 +179,6 @@ Ethical hacking follows these phases:
    - Understanding attacker techniques.
 
 
----
 
 # 🎯 Penetration Testing
 
@@ -215,7 +206,6 @@ Penetration Testing (Pen Test) is an authorized security test that simulates rea
 - Combines black box and white box approaches.
 
 
----
 
 # 📖 Cyber Security Field Terms
 
@@ -259,7 +249,6 @@ A Vulnerability Assessment identifies security weaknesses using:
 - Security analysis.
 
 
----
 
 # 💼 Jobs in Ethical Hacking
 
@@ -275,7 +264,6 @@ Cyber security careers include:
 - 🚨 Incident Response Specialist
 
 
----
 
 # ⚖️ Ethics of Cyber Security
 
@@ -289,5 +277,3 @@ Ethical hackers must:
 
 > "With great power comes great responsibility." 🛡️
 
-
----
