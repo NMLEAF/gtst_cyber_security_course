@@ -4,24 +4,15 @@
 
 1. 🔐 [What is Cyber Security?](#-what-is-cyber-security)
 2. 🕵️ [Types of Hackers](#️-types-of-hackers)
-   - Based on Ethics
-   - Based on Skill
 3. ❓ [Why Learn Cyber Security?](#-why-learn-cyber-security)
 4. 👨‍💻 [Who Can Be an Ethical Hacker?](#-who-can-be-an-ethical-hacker)
 5. ⚠️ [Why Hacks Happen](#️-why-hacks-happen)
 6. 🔑 [Elements of Information Security](#-elements-of-information-security)
-   - 🔒 Confidentiality
-   - 📝 Integrity
-   - ⚡ Availability
 7. 🧠 [Skills Needed for Ethical Hacking](#-skills-needed-for-ethical-hacking)
 8. 🚀 [Phases of Hacking](#-phases-of-hacking)
 9. 🎯 [Penetration Testing](#-penetration-testing)
 10. 🧪 [Types of Penetration Testing](#-types-of-penetration-testing)
 11. 📖 [Cyber Security Field Terms](#-cyber-security-field-terms)
-    - 🔴 Red Teaming / Offensive Security
-    - 🔵 Blue Teaming / Defensive Security
-    - 📋 Security Audit
-    - 🔍 Vulnerability Assessment
 12. 💼 [Jobs in Ethical Hacking](#-jobs-in-ethical-hacking)
 13. ⚖️ [Ethics of Cyber Security](#️-ethics-of-cyber-security)
 
