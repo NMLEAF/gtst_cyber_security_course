@@ -149,7 +149,7 @@ Example:
 
 Important skills include:
 
-- 🌐 Networking (TCP/IP, DNS, HTTP)
+- 🌐 Networking (TCP/IP, DNS, HTTP, DHCP)
 - 🐧 Linux skills
 - 💻 Programming knowledge
 - 🔍 Vulnerability assessment
